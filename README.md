@@ -9,7 +9,7 @@ CypressRunner
 
 
 Setting configurations:
-1) Navigate to CypressRunner/cypress/fixtures/ 
+1) Navigate to CypressRunner/cypress/fixtures
 2) Each line represent a key (name) and a value (Value), since this is a csv file the key and the value is seperated by a comma and each configuration is set in a different line.
 
 	Available Configurations:
@@ -18,12 +18,12 @@ Setting configurations:
 	- batch name - this is the test batch name
 
 Setting the URLs the test will run on:
-1) Navigate to CypressRunner/cypress/fixtures/ 
+1) Navigate to CypressRunner/cypress/fixtures
 2) Open the urls.csv files
 3) Under the title url add your desired urls, each url in a seperete line.
 
 Setting the environments the test will run on:
-1) Navigate to CypressRunner/cypress/fixtures/
+1) Navigate to CypressRunner/cypress/fixtures
 2) Each line represents an environment, an environment can either have a browser and viewport size or deviceName and screenOrientation.
 since this is a csv file the each property is seperated with by comma and each configuration is set in a different line, even if a value is empty, for example:
 
