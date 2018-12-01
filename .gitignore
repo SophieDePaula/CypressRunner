@@ -1,0 +1,4 @@
+node_modules/
+/cypress/integration/examples/sample_spec2.js
+commands.js
+/cypress/fixtures/commands.csv
