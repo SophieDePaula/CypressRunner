@@ -1,7 +1,7 @@
 CypressRunner
 
 1) Clone the project.
-2) Step in to CypressRunner directory in the terminal
+2) Step into the CypressRunner directory in the terminal
 3) Run: npx cypress open 
 (to run the test with logs run this instead: APPLITOOLS_SHOW_LOGS=true npx cypress open >file.log)
 4) A cypress window application should open
