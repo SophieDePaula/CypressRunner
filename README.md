@@ -10,7 +10,8 @@ CypressRunner
 
 Setting configurations:
 1) Navigate to CypressRunner/cypress/fixtures
-2) Each line represent a key (name) and a value (Value), since this is a csv file the key and the value is seperated by a comma and each configuration is set in a different line.
+2) Open the config.csv file
+3) Each line represent a key (name) and a value (Value), since this is a csv file the key and the value is seperated by a comma and each configuration is set in a different line.
 
 	Available Configurations:
 	- app name - this is the baseline app name
@@ -24,7 +25,8 @@ Setting the URLs the test will run on:
 
 Setting the environments the test will run on:
 1) Navigate to CypressRunner/cypress/fixtures
-2) Each line represents an environment, an environment can either have a browser and viewport size or deviceName and screenOrientation.
+2) Open the environment.csv file
+3) Each line represents an environment, an environment can either have a browser and viewport size or deviceName and screenOrientation.
 since this is a csv file the each property is seperated with by comma and each configuration is set in a different line, even if a value is empty, for example:
 
 	Browser,Viewport,deviceName,screenOrientation
